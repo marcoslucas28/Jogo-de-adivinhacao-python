@@ -56,7 +56,7 @@ while(continuar):
     if querContinuar in ('n', 'N'): continuar = False
     limparTerminal()
 
-arquivo = open("arquivo.txt", "a")   
+arquivo = open("arquivo.txt", "w")   
 acertos = str(acertos)
 arquivo.write(acertos)
 print("Obrigado por jogar")
